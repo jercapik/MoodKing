@@ -1,0 +1,32 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	background-color: #215676;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 22px;
+}
+#container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	background-image: url(../images/header.png);
+	background-repeat: no-repeat;
+	height: 344px;
+}
+.content {
+	background-image: url(../images/content_bg.gif);
+	background-repeat: repeat-y;
+	overflow: hidden;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.footer {
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	height: 41px;
+	overflow: hidden;
+}
